@@ -8,3 +8,10 @@ housesize int,
 taypeofmaterial varchar(100),
 Cost int
 )
+
+create table housemember
+(
+Fname varchar(50) primary key,
+Lname varchar(50),
+Age int
+)
